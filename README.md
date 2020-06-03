@@ -1,3 +1,3 @@
-# Default community health files for cisagov ⚕️
+# Default community health files for felddy ⚕️
 
-[![Build Status](https://travis-ci.com/cisagov/.github.svg)](https://travis-ci.com/cisagov/.github)
+[![GitHub Build Status](https://github.com/felddy/.github/workflows/build/badge.svg)](https://github.com/felddy/.github/actions)
