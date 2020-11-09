@@ -32,13 +32,11 @@
 
 * [ ] This PR has an informative and human-readable title.
 * [ ] Changes are limited to a single goal - _eschew scope creep!_
-* [ ] _All_ future TODOs are captured in issues, which are referenced
-      in code comments.
+* [ ] _All_ future TODOs are captured in issues, which are referenced in code comments.
 * [ ] All relevant type-of-change labels have been added.
-* [ ] I have read the [CONTRIBUTING](../blob/develop/CONTRIBUTING.md)
-      document.
+* [ ] I have read the [CONTRIBUTING](../blob/develop/CONTRIBUTING.md) document.
 * [ ] These code changes follow project standards.
-* [ ] All relevant repo and/or project documentation has been updated
-      to reflect the changes in this PR.
+* [ ] All relevant repo and/or project documentation has been updated to reflect
+      the changes in this PR.
 * [ ] Tests have been added to cover the changes in this PR.
 * [ ] All new and existing tests pass.
