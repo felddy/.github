@@ -1,0 +1,25 @@
+---
+name: sync-labels
+
+# Trigger-only stub: the dual-trigger sync-labels workflow in
+# felddy/reusable-workflows does the work. The labels assigned by this
+# repository's default issue forms must exist here as well as in every
+# destination repository; the central definitions provide both. Pinned
+# to an exact commit until a v5 release includes the callable; moves to
+# @v5 with the E10 conversions.
+
+on:
+  schedule:
+    - cron: 17 5 * * 1  # weekly, Monday morning
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  labeler:
+    uses: felddy/reusable-workflows/.github/workflows/sync-labels.yml@362c80e3e1568e08a83b913ea7001129ea24b8d2
+    with:
+      central-ref: 362c80e3e1568e08a83b913ea7001129ea24b8d2
+    permissions:
+      contents: read
+      issues: write

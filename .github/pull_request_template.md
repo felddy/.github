@@ -38,22 +38,7 @@ Uncomment this section if a screenshot is needed.
       in code comments.
 - [ ] All relevant type-of-change labels have been added.
 - [ ] I have read the [CONTRIBUTING](../blob/develop/CONTRIBUTING.md) document.
-- [ ] These code changes follow [cisagov code standards](https://github.com/cisagov/development-guide).
 - [ ] All relevant repo and/or project documentation has been updated
       to reflect the changes in this PR.
 - [ ] Tests have been added and/or modified to cover the changes in this PR.
 - [ ] All new and existing tests pass.
-
-## ✅ Pre-merge checklist ##
-
-<!-- Remove any of the following that do not apply. -->
-<!-- These boxes should remain unchecked until the pull request has been approved. -->
-
-- [ ] Revert dependencies to default branches.
-- [ ] Finalize version.
-
-## ✅ Post-merge checklist ##
-
-<!-- Remove any of the following that do not apply. -->
-
-- [ ] Add a tag or create a release.

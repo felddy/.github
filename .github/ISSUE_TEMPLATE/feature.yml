@@ -1,0 +1,42 @@
+---
+name: 🚀 Feature Proposal
+description: Submit a proposal for a new feature
+labels:
+  - "feature request :bulb:"
+assignees:
+  - felddy
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature proposal!
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: A clear and concise description of what the feature is.
+      placeholder: |
+        Add both purple and cyan colors to the color picker.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Please outline the motivation for the proposal.
+      placeholder: |
+        - The colors in the current color selector are limited.
+        - I would like the ability to select more colors.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Please provide an example of how this feature would be used.
+      placeholder: |
+        - Select an object on the page.
+        - Right-click on the selected object.
+        - Choose purple from the color change popup menu.
+    validations:
+      required: false
