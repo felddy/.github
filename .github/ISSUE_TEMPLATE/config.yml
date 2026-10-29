@@ -2,5 +2,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 Questions & Help
-    url: https://github.com/cisagov/.github/blob/develop/QUESTIONS.md
-    about: If you have questions, visit GitHub Discussions and Wiki pages
+    url: https://github.com/felddy/.github/blob/develop/SUPPORT.md
+    about: Support resources for felddy repositories

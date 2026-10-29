@@ -1,0 +1,62 @@
+---
+name: 🐛 Bug Report
+description: File a bug report
+labels:
+  - "bug :bug:"
+assignees:
+  - felddy
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: A clear and concise description of what the bug is.
+      placeholder: |
+        The widget color selector does not apply the correct color.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What are the steps to reproduce the behavior?
+      placeholder: |
+        - Select an object on the page.
+        - Right-click on the selected object.
+        - Choose a color from the color change popup menu.
+        - Click on the purple color selection.
+        - Notice the object turns yellow instead of purple.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: |
+        The object should turn purple.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output or screenshots
+      description: >
+        Any log output, error messages, or screenshots that help explain
+        the problem. Log output is automatically formatted as code.
+      render: console
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: >
+        Anything relevant about where the problem occurs: project
+        version, operating system, runtime versions.
+    validations:
+      required: false
